@@ -1,7 +1,10 @@
-# hello-world
-#include <stdio.h>
-int main() {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
-   return 0;
-}
+# Prompt user for input and convert to floating-point numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Calculate the sum
+result = num1 + num2
+
+# Display the output
+print(f"The sum is: {result}")
+
